@@ -1,0 +1,28 @@
+{
+  "name": "18220qa",
+  "version": "1.0.0",
+  "description": "BDD project for Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --format @cucumber/pretty-formatter",
+    "test:report": "npx cucumber-js --format @cucumber/pretty-formatter --format html:cucumber_report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramoso51/18220QA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pramoso51/18220QA/issues"
+  },
+  "homepage": "https://github.com/pramoso51/18220QA#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.3.0",
+    "assert": "^2.1.0"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^2.4.1"
+  }
+}
