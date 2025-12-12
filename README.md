@@ -21,3 +21,14 @@ npm install
 ```bash
 npm run test:report
 ```
+
+## Documentation / Reports / Evidence
+Below are the visual results of the test execution.
+
+### Terminal Output
+The following screenshot shows the successful execution of all scenarios using the integrated console formatter.
+![Test Execution Terminal](assets/runtest.png)
+
+### HTML Visual Report
+This is the interactive report generated automatically, providing a high-level overview of the test results.
+![Test Execution HTML](assets/runtesthtml.png)
